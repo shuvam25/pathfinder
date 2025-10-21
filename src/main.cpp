@@ -39,6 +39,7 @@ int main() {
     
     // Weighted Grid for Dijkstra's (Value = traversal cost, 0 = wall)
     // Note: Path through (0,1) is expensive (10), path through (1,2) is cheap (1)
+    // 1 - You can go, 0 can not go same logic as BFS 
     WeightGrid weighted_grid = {
         {1, 10, 1, 0, 1},
         {1, 0, 1, 0, 1},
